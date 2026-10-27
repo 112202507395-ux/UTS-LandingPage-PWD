@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page penjualan kopi mentah pilihan untuk roastery, kafe, dan pelaku usaha kopi.">
+  <title>Ruang Biji — Kopi Mentah Pilihan</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="topbar">PANEN PILIHAN • BIJI KOPI MENTAH BERKUALITAS • KIRIM KE SELURUH INDONESIA</div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#beranda" aria-label="Ruang Biji, ke beranda"><span class="brand-mark">☘</span><span>ruang<span style="color:#739b57">biji</span>.</span></a>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#produk">Produk</a><a href="#keunggulan">Keunggulan</a><a href="#cerita">Tentang Kami</a>
+      </nav>
+      <a class="nav-cta" href="#produk">Jelajahi Produk <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow"><span>✳</span> Dari kebun, untuk seduhan terbaik</span>
+          <h1>Awali rasa hebat dari <em>biji terbaik.</em></h1>
+          <p class="hero-copy">Temukan kopi mentah pilihan dari kebun-kebun Nusantara. Dipilih dengan teliti, diproses dengan baik, dan siap menjadi karakter unik dalam setiap sangraianmu.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#produk">Jelajahi Produk <span aria-hidden="true">↘</span></a>
+            <a class="btn btn-outline" href="#kalkulator">Kalkulator Pesanan</a>
+          </div>
+          <div class="proof">
+            <div class="avatars"><span class="avatar">☕</span><span class="avatar">🌿</span><span class="avatar">🫘</span><span class="avatar">✦</span></div>
+            <div><strong>Teman tumbuh para roaster</strong><small>Untuk usaha kecil hingga kebutuhan grosir</small></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="/images/foto1.avif" alt="Suasana biji kopi dan proses pengolahan kopi" />
+          </div>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong>100%</strong><span>Biji kopi mentah</span></div>
+        <div class="stat"><strong>3+</strong><span>Asal kopi pilihan</span></div>
+        <div class="stat"><strong>1 kg</strong><span>Minimum pembelian</span></div>
+        <div class="stat"><strong>Fresh</strong><span>Stok terjaga</span></div>
+      </div>
+    </div>
+
+    <section id="produk">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="section-kicker">Koleksi pilihan</div><h2>Kenali biji favoritmu.</h2></div>
+          <p class="section-desc">Setiap daerah punya karakter rasa yang berbeda. Klik foto produk untuk melihat detail, lalu masukkan harga dan jumlahnya ke kalkulator.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter produk">
+          <button class="filter active" data-filter="semua">Semua kopi</button>
+          <button class="filter" data-filter="arabika">Arabika</button>
+          <button class="filter" data-filter="robusta">Robusta</button>
+          <button class="filter" data-filter="specialty">Specialty</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-type="arabika specialty" data-name="Arabika Gayo" data-origin="Aceh, Sumatra" data-price="135000" data-notes="Floral, citrus, gula aren" data-desc="Arabika dataran tinggi Gayo dengan karakter bersih, aroma floral, sentuhan citrus, dan manis gula aren. Cocok untuk filter coffee dan eksplorasi light hingga medium roast.">
+            <div class="product-image" tabindex="0" role="button" aria-label="Lihat detail Arabika Gayo"><img loading="lazy" src="/images/ArabikaGayo.avif" alt="Biji kopi pilihan dengan nuansa alam" /><span class="tag">BEST SELLER</span><span class="zoom-hint">＋ Lihat detail</span></div>
+            <div class="product-info"><div class="origin">Aceh, Sumatra</div><h3>Arabika Gayo</h3><p>Floral · citrus · gula aren</p><div class="product-bottom"><div class="price"><strong>Rp135.000</strong><small>per kg</small></div><button class="add-btn" data-add="Arabika Gayo">Pilih produk ＋</button></div></div>
+          </article>
+          <article class="product-card" data-type="arabika specialty" data-name="Arabika Kintamani" data-origin="Bali" data-price="150000" data-notes="Jeruk, berry, segar" data-desc="Arabika Kintamani dikenal dengan kesan cerah dan segar, menghadirkan nuansa jeruk dan buah berry. Pilihan menarik untuk roaster yang ingin menonjolkan karakter fruity.">
+            <div class="product-image" tabindex="0" role="button" aria-label="Lihat detail Arabika Kintamani"><img loading="lazy" src="/images/ArabikaKintamani.jpg" alt="Biji kopi dan alat penyeduhan" /><span class="tag">FRUITY NOTES</span><span class="zoom-hint">＋ Lihat detail</span></div>
+            <div class="product-info"><div class="origin">Bali</div><h3>Arabika Kintamani</h3><p>Jeruk · berry · segar</p><div class="product-bottom"><div class="price"><strong>Rp150.000</strong><small>per kg</small></div><button class="add-btn" data-add="Arabika Kintamani">Pilih produk ＋</button></div></div>
+          </article>
+          <article class="product-card" data-type="robusta" data-name="Robusta Temanggung" data-origin="Temanggung, Jawa" data-price="78000" data-notes="Cokelat, kacang, bold" data-desc="Robusta dengan body tebal dan karakter cokelat-kacang. Cocok untuk espresso blend, kopi susu, dan kebutuhan usaha yang mengutamakan rasa kuat.">
+            <div class="product-image" tabindex="0" role="button" aria-label="Lihat detail Robusta Temanggung"><img loading="lazy" src="/images/robustaTemanggung.jpg" alt="Biji kopi dalam suasana hangat" /><span class="tag">BOLD & RICH</span><span class="zoom-hint">＋ Lihat detail</span></div>
+            <div class="product-info"><div class="origin">Temanggung, Jawa</div><h3>Robusta Temanggung</h3><p>Cokelat · kacang · bold</p><div class="product-bottom"><div class="price"><strong>Rp78.000</strong><small>per kg</small></div><button class="add-btn" data-add="Robusta Temanggung">Pilih produk ＋</button></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="calculator-section" id="kalkulator">
+      <div class="container calculator-grid">
+        <div class="calculator-copy">
+          <div class="section-kicker">Kalkulator penjualan</div>
+          <h2>Hitung kebutuhan dan total pesanan.</h2>
+          <p>Sesuaikan jenis kopi, berat pembelian, harga per kilogram, dan ongkos kirim. Total akan dihitung otomatis sehingga kamu bisa memperkirakan nilai transaksi dengan cepat.</p>
+          <div class="mini-benefits">
+            <div class="mini-benefit"><span class="check">✓</span> Perhitungan langsung dan otomatis</div>
+            <div class="mini-benefit"><span class="check">✓</span> Ringkasan yang bisa disalin</div>
+          </div>
+        </div>
+        <div class="calculator">
+          <h3>Kalkulator pesanan kopi</h3><p class="calc-sub">Ubah input untuk melihat estimasi total.</p>
+          <div class="field">
+            <label for="coffee">Pilih jenis kopi</label>
+            <select id="coffee">
+              <option value="135000" data-name="Arabika Gayo">Arabika Gayo — Rp135.000/kg</option>
+              <option value="150000" data-name="Arabika Kintamani">Arabika Kintamani — Rp150.000/kg</option>
+              <option value="78000" data-name="Robusta Temanggung">Robusta Temanggung — Rp78.000/kg</option>
+            </select>
+          </div>
+          <div class="field-grid">
+            <div class="field"><label for="qty">Jumlah (kg)</label><input id="qty" type="number" min="1" max="10000" step="1" value="5" /></div>
+            <div class="field"><label for="price">Harga per kg (Rp)</label><input id="price" type="number" min="0" step="1000" value="135000" /></div>
+          </div>
+          <div class="field-grid">
+            <div class="field"><label for="shipping">Ongkos kirim (Rp)</label><input id="shipping" type="number" min="0" step="1000" value="15000" /></div>
+            <div class="field"><label for="buyer">Nama pembeli (opsional)</label><input id="buyer" type="text" placeholder="Nama pelanggan" maxlength="60" /></div>
+          </div>
+          <div class="total-box" aria-live="polite">
+            <div class="total-label">Estimasi total pembayaran</div>
+            <div class="total-amount" id="grandTotal">Rp690.000</div>
+            <div class="total-breakdown">
+              <div class="breakdown-row"><span id="subtotalLabel">Subtotal (5 kg)</span><span id="subtotal">Rp675.000</span></div>
+              <div class="breakdown-row"><span>Ongkos kirim</span><span id="shippingAmount">Rp15.000</span></div>
+              <div class="breakdown-row grand"><span>Total akhir</span><span id="totalBottom">Rp690.000</span></div>
+            </div>
+          </div>
+          <div class="calc-actions"><button class="btn" id="copySummary">Salin ringkasan</button><button class="btn btn-outline" id="resetCalc" type="button">Reset</button></div>
+          <p class="note">* Harga dan ongkos kirim pada halaman ini merupakan contoh untuk demonstrasi tugas. Sesuaikan dengan harga jual sebenarnya. Total pembayaran dihitung dari subtotal produk ditambah ongkos kirim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cerita">
+      <div class="container story-grid">
+        <div class="story-photo"><img loading="lazy" src="/images/fotoCerita.avif" alt="Kopi dan perlengkapan seduh di meja" /></div>
+        <div class="story-copy">
+          <div class="section-kicker">Tentang Ruang Biji</div>
+          <h2>Lebih dekat dengan asal setiap biji.</h2>
+          <p>Ruang Biji hadir untuk memudahkan roaster, pemilik kafe, dan pegiat kopi mendapatkan green bean pilihan. Kami percaya secangkir kopi yang berkesan dimulai dari bahan baku yang tepat dan informasi yang jelas.</p>
+          <p>Mulai dari kebutuhan uji sangrai skala kecil sampai pembelian untuk usaha, landing page ini membantu pelanggan mengenali pilihan kopi dan menghitung estimasi pesanan.</p>
+          <div class="story-points" id="keunggulan">
+            <div class="story-point"><strong>🌿 Pilihan asal</strong><span>Kenali daerah dan karakter tiap kopi.</span></div>
+            <div class="story-point"><strong>⚖️ Fleksibel</strong><span>Atur jumlah sesuai kebutuhan.</span></div>
+            <div class="story-point"><strong>🧮 Transparan</strong><span>Rincian subtotal dan diskon jelas.</span></div>
+            <div class="story-point"><strong>🤝 Untuk bisnis</strong><span>Dirancang untuk pembeli retail dan grosir.</span></div>
+          </div>
+          <a class="btn" href="#kalkulator">Mulai hitung pesanan ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container">
+        <div class="quote-card">
+          <div><div class="section-kicker">Punya rencana sangrai?</div><h2>Biji yang tepat adalah awal dari cerita yang hebat.</h2><p>Jelajahi pilihan green bean, sesuaikan jumlah pembelian, dan hitung estimasi biaya sebelum membuat pesanan.</p></div>
+          <a class="btn" href="#produk">Lihat koleksi kopi ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div><a class="brand" href="#beranda"><span class="brand-mark">☘</span><span>ruang<span style="color:#a9d28a">biji</span>.</span></a><p>Green bean Nusantara, untuk kreasi kopi berikutnya.</p></div>
+      <div class="footer-links"><a href="#produk">Produk</a><a href="#keunggulan">Keunggulan</a><a href="#cerita">Tentang</a></div>
+      <p>© <span id="year"></span> Ruang Biji.Khusnul Khotimah.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="close-modal" id="closeModal" aria-label="Tutup detail">×</button>
+      <div class="modal-image"><img id="modalImg" src="" alt="" /></div>
+      <div class="modal-details"><div class="origin" id="modalOrigin"></div><h3 id="modalTitle"></h3><p id="modalDesc"></p><p><strong>Karakter:</strong> <span id="modalNotes"></span></p><div class="price" style="margin:20px 0"><strong id="modalPrice"></strong><small>per kilogram</small></div><button class="btn" id="modalChoose">Hitung pesanan ↗</button></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
